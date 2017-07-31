@@ -5,3 +5,6 @@ def buzzfizz(n):
         print("buzz")
     else:
         print(n)
+
+for i in range(1,100):
+    buzzfizz(i)
